@@ -16,9 +16,24 @@ a:hover {
 
 ul {
     list-style: none;
+    display: flex;
+    gap: 8px;
+    
 }
 
 header {
     background-color: #1F2937;
     color: white;
+
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid;
+}
+
+.logo {
+    padding-left: 100px;
 }
