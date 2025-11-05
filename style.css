@@ -31,14 +31,41 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    border: solid;
 }
 
 .logo {
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 700;
   color: #F9FAF8;
 }
+
+.hero {
+    display: flex;
+    border: solid;
+    border-color: red;
+}
+
+.text {
+
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+
+
 /*
 Nav bar styled accordingly, need to align hero content correctly. 
 Try adding a container spefcically around the hero so it doesnt interfear with the nav bar.
