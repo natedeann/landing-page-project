@@ -43,9 +43,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px;
-    border: solid;
-    border-color: red;
+    padding: 70px;
+    padding-bottom: 130px;
+
 }
 
 .text {
@@ -71,6 +71,10 @@ header {
 
 button {
     background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    font-size: 15px;
 }
 
 
