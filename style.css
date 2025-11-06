@@ -106,7 +106,7 @@ button {
 .content-cards {
     display: flex;
     align-items: flex-start;
-
+    
 
     border: solid;
     border-color: red;
@@ -115,9 +115,10 @@ button {
 .info {
     display: flex;
     flex-direction: column;
+    margin-left: 40px;
 }
 
-.text {
+.info-text {
     width: 250px;
 }
 
