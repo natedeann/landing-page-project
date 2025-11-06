@@ -88,8 +88,7 @@ button {
     justify-content: center;
     align-items: center;
 
-    border: solid;
-    border-color: red;
+   
 }
 
 .main-text {
@@ -104,15 +103,23 @@ button {
     margin-top: 5px;
 }
 
-
-
 .content-cards {
     display: flex;
+    align-items: flex-start;
+
 
     border: solid;
     border-color: red;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    width: 250px;
+}
 
 
 /*
