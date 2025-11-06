@@ -82,9 +82,31 @@ button {
     font-size: 15px;
 }
 
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    border: solid;
+    border-color: red;
+}
+
+.main-text-container {
+
+}
+
+
+.content-cards {
+    display: flex;
+
+    border: solid;
+    border-color: red;
+}
+
 
 
 /*
-Need to Debug Header, fix that white border, get font-weight to act accordingly.
+Need to Debug get font-weight to act accordingly.
 Move onto to Infomation Cards next session.
 */
