@@ -92,9 +92,18 @@ button {
     border-color: red;
 }
 
-.main-text-container {
-
+.main-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
+
+.sub-text {
+    font-size: 18px;
+    color: #1F2937;
+    margin-top: 5px;
+}
+
 
 
 .content-cards {
