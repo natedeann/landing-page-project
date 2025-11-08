@@ -138,6 +138,7 @@ button {
 .cta-quote {
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -147,7 +148,16 @@ button {
     font-weight: 300px;
     color: #1F2937;
     width: 750px;
-    margin: 80px;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.quote-by {
+    font-weight: 900px;
+    color: Black;
+    margin-top: 0px;
+    margin-bottom: 80px;
 }
 
 /*
