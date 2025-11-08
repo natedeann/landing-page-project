@@ -53,6 +53,10 @@ header {
 
 }
 
+.hero-img {
+    border-radius: 10px;
+}
+
 .text {
     margin-right: 50px;
 }
@@ -127,8 +131,24 @@ button {
 .info-text {
     width: 250px;
     margin-top: 12px;
+    font-size: 16px;
+    color: #1F2937;
 }
 
+.cta-quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-text {
+    font-size: 26px;
+    font-weight: 300px;
+    color: #1F2937;
+    width: 750px;
+    margin: 80px;
+}
 
 /*
 Round the Img edges and make text below look neater.
