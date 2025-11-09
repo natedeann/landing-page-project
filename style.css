@@ -95,6 +95,10 @@ button {
    
 }
 
+main {
+    margin-bottom: 50px;
+}
+
 .main-text {
     font-size: 36px;
     font-weight: 900;
@@ -161,11 +165,54 @@ button {
     margin-bottom: 80px;
 }
 
+.cta-button-container {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .cta-button {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #3882F6;
+    width: 900px;
+    border-radius: 10px;
+    padding: 18px;
 }
+
+.cta-button-text {
+    color: white;
+    margin-right: auto;
+    padding-left: 120px;
+    
+}
+
+.border-button {
+    border: solid;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    margin-right: 150px;
+    padding: 6px 12px;
+}
+
+.cta-button-main {
+    margin-bottom: 6px;
+    font-size: 22px;
+    font-weight: 700px;
+}
+
+.cta-button-sub {
+    margin-top: 6px;
+    font-size: 16px;
+    color: #E5E7EB;
+
+}
+
+
 /*
 Need to Add div to main text and sub text for CTA, position button,
  add blue background and white border, width restrictions and font styles.
