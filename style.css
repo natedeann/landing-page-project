@@ -99,6 +99,7 @@ button {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin-top: 50px;
 }
 
 .sub-text {
@@ -160,8 +161,16 @@ button {
     margin-bottom: 80px;
 }
 
+.cta-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*
-Round the Img edges and make text below look neater.
+Need to Add div to main text and sub text for CTA, position button,
+ add blue background and white border, width restrictions and font styles.
+
+ Need to style Footer.
 
 Need to Debug get font-weight to act accordingly.
 */
